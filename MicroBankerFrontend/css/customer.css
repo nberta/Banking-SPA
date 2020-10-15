@@ -1,0 +1,66 @@
+header {
+    /* display: block;
+    top: 0;
+    width: 100%; */
+    height: 50px;
+    background-color: #01233f;
+}
+
+#logo {
+    float: left;
+    height: 10%;
+    margin: 0 10%;
+}
+
+#greeting {
+    display: none;
+    color: #4eaf2f;
+    float: right;
+}
+
+#logout_button {
+    display: none;
+    float: right;
+}
+
+#account_detail_display {
+    display: none;
+    color: orange;
+}
+
+.customer-form {
+    padding: 10%;
+    margin: auto;
+    /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.customer-container form {
+    padding: 10%;
+}
+
+#balance,
+#account_type,
+#account_number {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+#balance,
+#account_type,
+#account_number {
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+
+#transaction_list {
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.table {
+    color: white;
+}
